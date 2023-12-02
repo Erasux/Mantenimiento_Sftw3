@@ -1,0 +1,50 @@
+.home-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.slogan {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.start-chat-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.Generate-button {
+  background-color: #61dafb;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Generate-button:hover {
+  background-color: #4fa3d8;
+}
+
+#password {
+  margin-top: 20px;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  background-color: #f0f0f0;
+}
