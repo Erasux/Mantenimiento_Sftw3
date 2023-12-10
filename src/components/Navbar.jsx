@@ -4,13 +4,14 @@ import "../styles/navbar.css";
 function Navbar() {
   const [active, setActive] = useState("nav__menu");
   const [toggleIcon, setToggleIcon] = useState("nav__toggler");
-
+  
   const navToggle = () => {
+    // Cambia el estado 'active' al hacer clic en la navegación
     active === "nav__menu"
       ? setActive("nav__menu nav__active")
       : setActive("nav__menu");
-
-    //TogglerIcon
+  
+    // Cambia el estado 'toggleIcon' al hacer clic en el botón de alternar
     toggleIcon === "nav__toggler"
       ? setToggleIcon("nav__toggler toggle")
       : setToggleIcon("nav__toggler");
